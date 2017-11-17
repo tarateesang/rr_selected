@@ -1,0 +1,32 @@
+/* =====================================================
+LAZY LOADING
+======================================================*/
+
+.lazy-load {
+  /* assuming a fixed width for the container */
+
+width: 300px;
+  height: 200px;
+  overflow: hidden;
+  margin-bottom: 1vh;
+  margin-right: 1vh;
+  background-color: lightgrey;
+}
+
+.lazy-load img {
+  /*width:300px;*/
+  height:200px;
+}
+
+.movement {
+  transition: 0.5s ease;
+}
+
+.b-lazy {
+  opacity: 0;
+}
+
+.b-loaded {
+  opacity: 1;
+  /*transition: 0.5s ease;*/
+}

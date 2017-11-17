@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Scroll-based fade: Robb Report Animation Gallery
+        </title>
+        <link href="css/style.css" rel="stylesheet">
+        </link>
+        <link href="images/favicon.png" rel="icon"/>
+    </head>
+    <body>
+        <div class="top">
+            <h5 class="back-home">
+                <a href="index.html">
+                    Back to home
+                </a>
+            </h5>
+            <h2 class="title">
+                Scroll-based fade
+            </h2>
+            <div class="description" style="width:600px">
+                You can set for elements to fade out you scroll down the page, as well as for them to fade back in as you scroll back in. This is done by setting a function to reduce opacity as the Y-value of the page changes. It will change inversely as the direction is reversed. This was done via jQuery.
+                <br/>
+                <br/>
+                See how this text and some photos fade in and out as you scroll up and down the page.
+            </div>
+        </div>
+        <div class="image1">
+            <img src="images/lofoten2.jpg" style="width:600px;"/>
+        </div>
+        <div class="image2">
+            <img src="images/lofoten3.jpg" style="width:600px"/>
+        </div>
+        <script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" src="https://code.jquery.com/jquery-3.2.1.min.js">
+        </script>
+        <script>
+            $(window).scroll(function(){
+                $(".top").css("opacity", 1 - $(window).scrollTop() / 375);
+                $(".image1").css("opacity", 1 - $(window).scrollTop() / 850);
+              });
+        </script>
+    </body>
+</html>

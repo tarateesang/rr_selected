@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,700');
+
+:root {
+  --link1: #FF6D00;
+  --link2: #BF360C;
+  --grey500: #9E9E9E;
+  --grey300: #E0E0E0;
+}
+
+body {
+  padding: 5vw 15vw;
+}
+
+.img-responsive {
+  width: inherit;
+  height: auto;
+}
+
+.img-container-img {
+  width: 100%;
+  z-index: 0;
+}
+
+.text-container {
+  height: inherit;
+  margin-top: -60px;
+  margin-left: 60px;
+  z-index: 1;
+}
+
+.siema {
+  width: 600px;
+}
+
+/* =====================================================
+TYPOGRAPHIC STYLING
+======================================================*/
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+a,
+button {
+  font-family: 'Barlow', sans-serif;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.back-home {
+  margin-bottom: 5vw;
+  font-weight: 400;
+  font-size: 1em;
+}
+
+.main-title {
+  font-weight: 400;
+  font-size: 2.5em;
+}
+
+.title {
+  font-weight: 400;
+  font-size: 2em;
+}
+
+.descriptor {
+  font-family: "Source Sans Pro";
+  font-weight: 400;
+  color: var(--grey500);
+  font-size: 1.25em;
+  margin-top: 10vh;
+}
+
+p,
+.description {
+  font-family: "Source Sans Pro";
+  /*margin-top:1vh;*/
+
+margin-bottom: 3vh;
+}
+
+a {
+  color: var(--link1);
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  color: var(--link2);
+}
+
+ul {
+  margin-top: 3vw;
+}
+
+li {
+  margin-bottom: 1vw;
+}
+
+button {
+  font-family: 'Barlow' !important;
+}
+
+
+
+/* =====================================================
+LINK HOVERS
+======================================================*/
+
+.link_hover_body {
+  padding: 3vh;
+  text-align: center;
+}
+
+
+
+
+/* =====================================================
+SLIDE IN UP SCROLL
+======================================================*/
+
+.slide-in {
+    /* sets the time of the slide-up transition*/
+    transition: 0.5s ease-out;
+    width: 800px;
+}
+
+.b-lazy.slide-in {
+  /* you can change how far the image should travel here; currently set to 25% height of image*/
+  transform: translate3d(0, 25%, 0);
+  /*visibility: visible;*/
+  opacity:0;
+}
+
+.b-loaded.slide-in {
+  transform: translate3d(0, 0, 0);
+  opacity:1;
+}
+

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Lazy loading + smooth scrolling: Robb Report Animation Gallery
+        </title>
+        <link href="../css/style.css" rel="stylesheet">
+        </link>
+        <link href="load.css" rel="stylesheet">
+        </link>
+        <link rel="icon" href="../images/favicon.png"/>
+    </head>
+    <body>
+        <div id="top">
+        </div>
+        <h5 class="back-home">
+            <a href="../index.html">
+                Back to home
+            </a>
+        </h5>
+        <h2 class="title">
+            Lazy loading
+             <!-- + smooth scrolling -->
+        </h2>
+        <div class="description" style="width:600px">
+            
+            <a href="http://dinbror.dk/blazy/examples/" target="_blank">
+                Lazy loading
+            </a>
+            will appear on all pages.
+            <br/>
+            <br/>
+            Scroll down to see how it works.
+        </div>
+        <!-- mechanics: photos load in a grey container -->
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance.jpg" src="../images/dance.jpg"/>
+        </div>
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance2.jpg" src="../images/dance2.jpg"/>
+        </div>
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance.jpg" src="../images/dance.jpg"/>
+        </div>
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance2.jpg" src="../images/dance2.jpg"/>
+        </div>
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance.jpg" src="../images/dance.jpg"/>
+        </div>
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance2.jpg" src="../images/dance2.jpg"/>
+        </div>
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance.jpg" src="../images/dance.jpg"/>
+        </div>
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance2.jpg" src="../images/dance2.jpg"/>
+        </div>
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance.jpg" src="../images/dance.jpg"/>
+        </div>
+        <div class="lazy-load">
+            <img class="b-lazy movement" data-src="../images/dance2.jpg" src="../images/dance2.jpg"/>
+        </div>
+
+        <div style="margin-top:5vh">
+            <div class="description" style="width:600px">
+                <a href="https://github.com/cferdinandi/smooth-scroll" target="_blank">
+                    Smooth scroll
+                </a>
+                is a lightweight JavaScript library to animate smooth scrolling between anchor links (on a page). Click the link below to see what happens. This should occur on every page as well.
+            </div>
+            <a data-scroll="" href="#top">
+                Back to top
+            </a>
+        </div>
+        <script src="https://rawgithub.com/dinbror/blazy/master/blazy.min.js">
+        </script>
+        <script src="smooth-scroll.js">
+        </script>
+        <script src="blazy.js">
+        </script>
+        <script src="app.js">
+        </script>
+    </body>
+</html>
