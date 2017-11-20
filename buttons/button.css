@@ -47,8 +47,8 @@ BUTTON EFFECTS
 
 /* Button 6 */
 .btn-6 {
-	color: #fff;
-	background: var(--link1);
+	color:var(--link1);
+	background:transparent;
 	-webkit-transition: none;
 	-moz-transition: none;
 	transition: none;
@@ -64,6 +64,6 @@ BUTTON EFFECTS
 }
 
 .btn-6a:hover {
-	background: transparent;
-	color: var(--link1);
+	color: #FFF;
+	background: var(--link1);
 }

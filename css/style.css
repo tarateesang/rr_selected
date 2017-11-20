@@ -49,6 +49,10 @@ button {
   font-family: 'Barlow', sans-serif;
 }
 
+a:hover {
+  cursor:pointer;
+}
+
 h3 {
   text-transform: uppercase;
   font-weight: 700;

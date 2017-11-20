@@ -46,3 +46,9 @@ width: inherit;
 .hover-effect:hover .overlay, .hover-effect-overlay:hover .overlay {
   opacity: 1;
 }
+
+
+.no-style,
+.no-style:hover {
+  color:black;
+}

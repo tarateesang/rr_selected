@@ -59,13 +59,13 @@ BODY LINK
 	font-style:italic;
 /*	text-decoration:underline;
 	text-decoration-color:var(--linkyellow);*/
-	border-bottom:2px var(--linkyellow) solid;
+	border-bottom:2px orange dotted;
 }
 
 .body_link:hover {
-	color:#656565;
+	color:black;
 	cursor:pointer;
-	border-bottom:3px var(--linkyellow) solid;
+	border-bottom:3px orange solid;
 }
 
 .body_link1 {
@@ -73,11 +73,29 @@ BODY LINK
 	font-style:italic;
 /*	text-decoration:underline;
 	text-decoration-color:var(--linkyellow);*/
-	border-bottom:2px var(--linkyellow) dotted;
+	border-bottom:2px orange dotted;
 }
 
 .body_link1:hover {
-	color:#909090;
+	color:white;
 	cursor:pointer;
 	/*border-bottom:3px var(--linkyellow) solid;*/
+	background-color:orange;
+	transition:0.25s ease;
+}
+
+.body_link2 {
+	color:black;
+	font-style:italic;
+/*	text-decoration:underline;
+	text-decoration-color:var(--linkyellow);*/
+	border-bottom:2px orange solid;
+}
+
+.body_link2:hover {
+	color:orange;
+	cursor:pointer;
+	/*border-bottom:3px var(--linkyellow) solid;*/
+	/*background-color:orange;*/
+	transition:0.25s ease;
 }
