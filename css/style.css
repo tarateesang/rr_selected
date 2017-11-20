@@ -3,6 +3,7 @@
 :root {
   --link1: #FF6D00;
   --link2: #BF360C;
+  --linkyellow:#FFE3A6;
   --grey500: #9E9E9E;
   --grey300: #E0E0E0;
 }
@@ -71,7 +72,7 @@ h3 {
 }
 
 .descriptor {
-  font-family: "Source Sans Pro";
+  font-family: "Barlow";
   font-weight: 400;
   color: var(--grey500);
   font-size: 1.25em;
@@ -80,7 +81,7 @@ h3 {
 
 p,
 .description {
-  font-family: "Source Sans Pro";
+  font-family: "Barlow";
   /*margin-top:1vh;*/
 
 margin-bottom: 3vh;
