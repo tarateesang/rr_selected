@@ -171,7 +171,6 @@ LARGE QUOTE
 }
 
 .large_quote.play:hover {
-    border-bottom:3px solid var(--linkplay);
     color:var(--linkplay1);
 }
 
@@ -180,7 +179,6 @@ LARGE QUOTE
 }
 
 .large_quote.work:hover {
-    border-bottom:3px solid var(--linkwork);
     color:var(--linkwork1);
 }
 
