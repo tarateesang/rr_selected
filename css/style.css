@@ -3,10 +3,13 @@
 :root {
   --link1: #FF6D00;
   --link2: #BF360C;
-  --linkplay:#FFE3A6;
-  --linkwork:#B3D9E1;
   --grey500: #9E9E9E;
   --grey300: #E0E0E0;
+
+  /* Robb Report colours */
+  --linkplay:#FFE3A6;
+  --linkwork:#B3D9E1;
+  --linkneutral:#F3C3BE;
 }
 
 body {
@@ -90,6 +93,8 @@ p,
   /*margin-top:1vh;*/
 
 margin-bottom: 3vh;
+font-size:17px;
+line-height:26px;
 }
 
 a {

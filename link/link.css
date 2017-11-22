@@ -12,7 +12,7 @@ nav a {
     letter-spacing: 1px;
     font-weight: 400;
     text-shadow: 0 0 1px rgba(255, 255, 255, 0.3);
-    font-size: 1.35em;
+    font-size: 12px;
 }
 nav a:hover, nav a:focus {
     outline: none;
@@ -38,7 +38,7 @@ nav a:hover, nav a:focus {
     transform: translateY(-10px);
 }
 .cl-effect-4 a:hover::after, .cl-effect-4 a:focus::after {
-    height: 5px;
+    height: 2px;
     opacity: 1;
     -webkit-transform: translateY(0px);
     -moz-transform: translateY(0px);
@@ -73,16 +73,28 @@ BODY LINK
     transition: 0.25s ease;
 }
 
+.body_link2{
+    color: black;
+    font-style: italic;
+    border-bottom: 3px var(--linkneutral) solid;
+}
+.body_link2:hover {
+    color: black;
+    cursor: pointer;
+    background-color: var(--linkneutral);
+    transition: 0.25s ease;
+}
 
 /* ============================
 LARGE QUOTE
 =============================== */
 
 .quote_container {
-    height:100px;
+    min-height:100px;
     background:#F9F4EA;
     display:table;
     width:100%;
+    margin-bottom:5vh;
 }
 
 .quote_inner {
@@ -91,11 +103,28 @@ LARGE QUOTE
     margin-left:auto;
     margin-right:auto;
     text-align:center;
+    padding:40px;
 }
 
+
+/* hard-coded image styling for demo */
+.quote_underline {
+    border-bottom:2px solid white;
+    padding-top:4px;
+}
+
+.quote_inner:hover .quote_underline {
+    border-bottom:2px solid var(--linkplay);
+    transition:0.25s ease;
+}
+
+
+/* for the actual dynamic text quote */
 .large_quote {
     color:black;
     border-bottom:2px solid white;
+    font-size:17px;
+    line-height:26px;
 }
 
 .large_quote:hover {
