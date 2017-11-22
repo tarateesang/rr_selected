@@ -1,4 +1,4 @@
-/* note: linkyellow: #FFE3A6 */
+/* note: linkplay: #FFE3A6 */
 
 
 nav a {
@@ -48,46 +48,63 @@ nav a:hover, nav a:focus {
 BODY LINK
 ============================== */
 
+
 .body_link {
     color: black;
     font-style: italic;
-    /*	text-decoration:underline;
-	text-decoration-color:var(--linkyellow);*/
-    border-bottom: 2px var(--linkyellow) dotted;
+    border-bottom: 3px var(--linkplay) solid;
 }
 .body_link:hover {
     color: black;
     cursor: pointer;
-    border-bottom: 3px var(--linkyellow) solid;
+    background-color: var(--linkplay);
+    transition: 0.25s ease;
 }
+
 .body_link1 {
     color: black;
     font-style: italic;
-    /*	text-decoration:underline;
-	text-decoration-color:var(--linkyellow);*/
-    border-bottom: 2px var(--linkyellow) dotted;
+    border-bottom: 3px var(--linkwork) solid;
 }
 .body_link1:hover {
     color: black;
     cursor: pointer;
-    /*border-bottom:3px var(--linkyellow) solid;*/
-    background-color: var(--linkyellow);
+    background-color: var(--linkwork);
     transition: 0.25s ease;
 }
-.body_link2 {
-    color: black;
-    font-style: italic;
-    /*	text-decoration:underline;
-	text-decoration-color:var(--linkyellow);*/
-    border-bottom: 2px var(--linkyellow) solid;
+
+
+/* ============================
+LARGE QUOTE
+=============================== */
+
+.quote_container {
+    height:100px;
+    background:#F9F4EA;
+    display:table;
+    width:100%;
 }
-.body_link2:hover {
-    color: var(--linkyellow);
-    cursor: pointer;
-    /*border-bottom:3px var(--linkyellow) solid;*/
-    /*background-color:orange;*/
-    transition: 0.25s ease;
+
+.quote_inner {
+    display:table-cell;
+    vertical-align:middle;
+    margin-left:auto;
+    margin-right:auto;
+    text-align:center;
 }
+
+.large_quote {
+    color:black;
+    border-bottom:2px solid white;
+}
+
+.large_quote:hover {
+    border-bottom:3px solid var(--linkplay);
+    color:black;
+    cursor:pointer !important;
+    transition:0.25s ease;
+}
+
 /* ============================
 SOCIAL MEDIA ICON HOVER
 =============================== */
@@ -104,10 +121,13 @@ i:hover {
 }
 .fa-twitter:hover {
     color: #1da1f2;
+    transition:0.25s ease;
 }
 .fa-facebook:hover {
     color: #3b5998;
+    transition:0.25s ease;
 }
 .fa-pinterest:hover {
     color: #C92228;
+    transition:0.25s ease;
 }
