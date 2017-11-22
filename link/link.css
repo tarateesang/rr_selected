@@ -94,10 +94,17 @@ LARGE QUOTE
 
 .quote_container {
     min-height:300px;
-    background:#F9F4EA;
     display:table;
     width:100%;
     margin-bottom:5vh;
+}
+
+.quote_container.play {
+    background:var(--bgplay);
+}
+
+.quote_container.work {
+    background:var(--bgwork);
 }
 
 .quote_inner {
@@ -108,7 +115,6 @@ LARGE QUOTE
     text-align:center;
     padding:40px;
 }
-
 
 /* hard-coded image styling for demo */
 .quote_img_container {
@@ -131,20 +137,51 @@ LARGE QUOTE
     transition:0.25s ease;
 }
 
+.quote_img1 {
+    background:url('quote1b.png');
+    background-repeat:no-repeat;
+    height:415px;
+    width:750px;
+    transition:0.25s ease;
+}
+
+.quote_img1:hover {
+    background:url('quote2b.png');
+    background-repeat:no-repeat;
+    height:415px;
+    width:750px;
+    transition:0.25s ease;
+}
 
 /* for the actual dynamic text quote */
 .large_quote {
     color:black;
-    border-bottom:2px solid var(--linkplay);
     font-size:17px;
     line-height:26px;
+    transition:0.25s ease;
 }
 
 .large_quote:hover {
-    border-bottom:3px solid var(--linkplay);
-    color:var(--linkplay1);
     cursor:pointer !important;
     transition:0.25s ease;
+}
+
+.large_quote.play {
+    border-bottom:2px solid var(--linkplay);
+}
+
+.large_quote.play:hover {
+    border-bottom:3px solid var(--linkplay);
+    color:var(--linkplay1);
+}
+
+.large_quote.work{
+    border-bottom:2px solid var(--linkwork);
+}
+
+.large_quote.work:hover {
+    border-bottom:3px solid var(--linkwork);
+    color:var(--linkwork1);
 }
 
 /* ============================

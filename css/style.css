@@ -7,9 +7,12 @@
   --grey300: #E0E0E0;
 
   /* Robb Report colours */
+  --bgplay:#F9F4EA;
+  --bgwork:#DFEBF0;
   --linkplay:#FFE3A6;
   --linkplay1:#D4A01C;
   --linkwork:#B3D9E1;
+  --linkwork1:#56A2B2;
   --linkneutral:#F3C3BE;
 }
 
