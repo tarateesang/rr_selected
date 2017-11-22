@@ -1,0 +1,65 @@
+<html>
+    <head>
+        <link href="sticky_menu.css" rel="stylesheet">
+        </link>
+        <link href="../css/style.css" rel="stylesheet">
+        </link>
+        <link rel="icon" href="../images/favicon.png"/>
+    </head>
+    <div class="header">
+        The header or navigation elements go here...
+    </div>
+    <body>
+        <div id="top">
+        </div>
+        <h5 class="back-home">
+            <a href="../index.html">
+                Back to home
+            </a>
+        </h5>
+        <h2 class="title">
+            Navbar sticky scrolling
+            <!-- + smooth scrolling -->
+        </h2>
+    </body>
+    <div class="main">
+        <!-- <div style="width:600px"> -->
+        <img src="../images/dance.jpg" style="width:600px"/>
+        <img src="../images/dance.jpg" style="width:600px"/>
+        <img src="../images/dance.jpg" style="width:600px"/>
+        <img src="../images/dance.jpg" style="width:600px"/>
+        <img src="../images/dance.jpg" style="width:600px"/>
+        <img src="../images/dance.jpg" style="width:600px"/>
+        <img src="../images/dance.jpg" style="width:600px"/>
+        <img src="../images/dance.jpg" style="width:600px"/>
+        <img src="../images/dance.jpg" style="width:600px"/>
+    </div>
+
+</html>
+<!-- <div class="sidebar">
+    <p>Scroll Offset: <b></b>  <em></em>
+
+    </p>
+</div> -->
+<script crossorigin="anonymous" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" src="https://code.jquery.com/jquery-3.2.1.min.js">
+</script>
+<script type="text/javascript">
+    // $(window).scroll(
+    // function () {
+    //     $(".header").fadeIn(500);
+    //     $(".header").delay(1000).fadeOut(500);
+    // });
+    $(window).scroll(
+    {
+        previousTop: 0
+    }, 
+    function () {
+    var currentTop = $(window).scrollTop();
+    if (currentTop < this.previousTop) {
+        $(".header").css("opacity", "1");
+    } else {
+        $(".header").css("opacity", "0");
+    }
+    this.previousTop = currentTop;
+});
+</script>
