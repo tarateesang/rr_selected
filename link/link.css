@@ -2,6 +2,9 @@
 
 
 nav a {
+    font-family:'Barlow';
+    font-weight:500 !important;
+    letter-spacing:1px !important;
     position: relative;
     display: inline-block;
     margin: 15px 25px;
@@ -90,7 +93,7 @@ LARGE QUOTE
 =============================== */
 
 .quote_container {
-    min-height:100px;
+    min-height:300px;
     background:#F9F4EA;
     display:table;
     width:100%;
@@ -108,13 +111,23 @@ LARGE QUOTE
 
 
 /* hard-coded image styling for demo */
-.quote_underline {
-    border-bottom:2px solid white;
-    padding-top:4px;
+.quote_img_container {
+    margin-bottom:50px;
 }
 
-.quote_inner:hover .quote_underline {
-    border-bottom:2px solid var(--linkplay);
+.quote_img {
+    background:url('quote1a.png');
+    background-repeat:no-repeat;
+    height:415px;
+    width:750px;
+    transition:0.25s ease;
+}
+
+.quote_img:hover {
+    background:url('quote2a.png');
+    background-repeat:no-repeat;
+    height:415px;
+    width:750px;
     transition:0.25s ease;
 }
 
@@ -122,14 +135,14 @@ LARGE QUOTE
 /* for the actual dynamic text quote */
 .large_quote {
     color:black;
-    border-bottom:2px solid white;
+    border-bottom:2px solid var(--linkplay);
     font-size:17px;
     line-height:26px;
 }
 
 .large_quote:hover {
     border-bottom:3px solid var(--linkplay);
-    color:black;
+    color:var(--linkplay1);
     cursor:pointer !important;
     transition:0.25s ease;
 }

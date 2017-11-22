@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,700');
+@import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,500,700');
 
 :root {
   --link1: #FF6D00;
@@ -8,6 +8,7 @@
 
   /* Robb Report colours */
   --linkplay:#FFE3A6;
+  --linkplay1:#D4A01C;
   --linkwork:#B3D9E1;
   --linkneutral:#F3C3BE;
 }
