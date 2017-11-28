@@ -206,6 +206,42 @@ LARGE QUOTE
 }
 
 /* ============================
+SUBCATEGORY LINKS
+=============================== */
+
+.subcategory {
+    color:black;
+    padding-right:3px;
+    font-weight:500;
+    font-size:13px;
+    letter-spacing:1px;
+}
+.subcategory:hover,
+.subcategory:active,
+.subcategory:focus {
+    text-decoration:underline;
+    color:black;
+}
+
+.work_play {
+    color:var(--linkwork1);
+    padding-left:3px;
+    font-weight:500;
+    font-size:13px;
+    letter-spacing:1px;
+}
+
+.work_play:hover,
+.work_play:active,
+.work_play:focus {
+    color:var(--linkwork1);
+    text-decoration:underline;
+}
+
+
+
+
+/* ============================
 SOCIAL MEDIA ICON HOVER
 =============================== */
 
