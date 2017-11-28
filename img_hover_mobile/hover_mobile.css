@@ -25,8 +25,8 @@ width: inherit;
 }
 
 /*.hover-effect:hover img,*/
-.hover-effect:focus img
-/*.hover-effect:active img */
+.hover-effect:focus img,
+.hover-effect:active img 
 {
   transform: scale(1.05, 1.05);
   -webkit-transition: all 0.5s ease;
@@ -51,7 +51,7 @@ width: inherit;
 }*/
 
 .hover-effect:focus .overlay, .hover-effect-overlay:focus .overlay,
-/*.hover-effect:active .overlay, .hover-effect-overlay:active .overlay */
+.hover-effect:active .overlay, .hover-effect-overlay:active .overlay 
 {
   opacity: 1;
 }
