@@ -90,7 +90,7 @@ BODY LINK
     color: black;
     cursor: pointer;
     background-color: var(--linkwork);
-    transition: 0.25s ease;
+    /*transition: 0.25s ease;*/
 }
 
 
