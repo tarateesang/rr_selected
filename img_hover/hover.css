@@ -52,3 +52,8 @@ width: inherit;
 .no-style:hover {
   color:black;
 }
+
+
+.underline:hover {
+  text-decoration:underline;
+}
