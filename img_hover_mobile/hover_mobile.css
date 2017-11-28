@@ -1,0 +1,60 @@
+/* =====================================================
+IMAGE HOVER EFFECTS
+======================================================*/
+
+.hover-effect,
+.hover-effect-overlay {
+  width: 600px;
+  overflow: hidden;
+}
+
+.hover-effect img,
+.hover-effect .overlay {
+  -webkit-transition: 0.5s ease-out;
+  -moz-transition: 0.5s ease-out;
+  -o-transition: 0.5s ease-out;
+  transition: 0.5s ease-out;
+}
+
+.img-container {
+  /* assuming a fixed width for the container */
+
+width: inherit;
+  height: 330px;
+  overflow: hidden;
+}
+
+.hover-effect:hover img,
+.hover-effect:focus img,
+.hover-effect:active img {
+  transform: scale(1.05, 1.05);
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+}
+
+.overlay {
+  height: 330px;
+  width: 600px;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.5s ease;
+  opacity: 0;
+  position: absolute;
+  transform: translate(0%, -100%);
+  -ms-transform: translate(0%, -100%)
+}
+
+.hover-effect:hover .overlay, .hover-effect-overlay:hover .overlay {
+  opacity: 1;
+}
+
+.hover-effect:focus .overlay, .hover-effect-overlay:focus .overlay,
+.hover-effect:active .overlay, .hover-effect-overlay:active .overlay {
+  opacity: 1;
+}
+
+.no-style,
+.no-style:hover {
+  color:black;
+}
