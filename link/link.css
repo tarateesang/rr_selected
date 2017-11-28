@@ -83,6 +83,17 @@ BODY LINK
     transition: 0.25s ease;
 }
 
+
+.body_link1:hover::after,
+.body_link1:focus::after,
+.body_link1:active::after{
+    color: black;
+    cursor: pointer;
+    background-color: var(--linkwork);
+    transition: 0.25s ease;
+}
+
+
 .body_link2{
     color: black;
     font-style: italic;
