@@ -221,6 +221,7 @@ SUBCATEGORY LINKS
 .subcategory:focus {
     text-decoration:underline;
     color:black;
+    transition:0.25s ease;
 }
 
 .work_play {
@@ -236,6 +237,7 @@ SUBCATEGORY LINKS
 .work_play:focus {
     color:var(--linkwork1);
     text-decoration:underline;
+    transition:0.25s ease;
 }
 
 
