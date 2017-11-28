@@ -24,9 +24,10 @@ width: inherit;
   overflow: hidden;
 }
 
-.hover-effect:hover img,
-.hover-effect:focus img,
-.hover-effect:active img {
+/*.hover-effect:hover img,*/
+.hover-effect:focus img
+/*.hover-effect:active img */
+{
   transform: scale(1.05, 1.05);
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
@@ -44,17 +45,13 @@ width: inherit;
   transform: translate(0%, -100%);
   -ms-transform: translate(0%, -100%)
 }
-
+/*
 .hover-effect:hover .overlay, .hover-effect-overlay:hover .overlay {
   opacity: 1;
-}
+}*/
 
 .hover-effect:focus .overlay, .hover-effect-overlay:focus .overlay,
-.hover-effect:active .overlay, .hover-effect-overlay:active .overlay {
+/*.hover-effect:active .overlay, .hover-effect-overlay:active .overlay */
+{
   opacity: 1;
-}
-
-.no-style,
-.no-style:hover {
-  color:black;
 }
