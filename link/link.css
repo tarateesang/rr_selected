@@ -57,19 +57,26 @@ BODY LINK
     font-style: italic;
     border-bottom: 3px var(--linkplay) solid;
 }
-.body_link:hover {
+.body_link:hover,
+.body_link:focus,
+.body_link:active,
+.body_link::after {
     color: black;
     cursor: pointer;
     background-color: var(--linkplay);
     transition: 0.25s ease;
 }
 
+
 .body_link1 {
     color: black;
     font-style: italic;
     border-bottom: 3px var(--linkwork) solid;
 }
-.body_link1:hover {
+.body_link1:hover,
+.body_link1:focus,
+.body_link1:active,
+.body_link1::after {
     color: black;
     cursor: pointer;
     background-color: var(--linkwork);
@@ -81,7 +88,10 @@ BODY LINK
     font-style: italic;
     border-bottom: 3px var(--linkneutral) solid;
 }
-.body_link2:hover {
+.body_link2:hover,
+.body_link2:focus,
+.body_link2:active,
+.body_link2::after {
     color: black;
     cursor: pointer;
     background-color: var(--linkneutral);
@@ -129,7 +139,9 @@ LARGE QUOTE
     transition:0.25s ease;
 }
 
-.quote_img:hover {
+.quote_img:hover,
+.quote_img:focus,
+.quote_img:active {
     background:url('quote2a.png');
     background-repeat:no-repeat;
     height:415px;
