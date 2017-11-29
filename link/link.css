@@ -208,10 +208,10 @@ LARGE QUOTE
     -webkit-text-decoration-color:var(--linkplay);*/
         background:
     linear-gradient(to top,
-      rgba(249,244,234,0) 6px,
+      rgba(249,244,234,1) 6px,
       rgba(255,227,166,1) 6px,
       rgba(255,227,166,1) 9px,
-      rgba(249,244,234,0) 10px
+      rgba(249,244,234,1) 10px
     );
 }
 
@@ -226,10 +226,10 @@ LARGE QUOTE
     -webkit-text-decoration-color:var(--linkwork);*/
         background:
     linear-gradient(to top,
-      rgba(223,235,240,0) 6px,
+      rgba(223,235,240,1) 6px,
       rgba(179,217,225,1) 6px,
       rgba(179,217,225,1) 9px,
-      rgba(223,235,240,0) 10px
+      rgba(223,235,240,1) 10px
     );
 }
 
