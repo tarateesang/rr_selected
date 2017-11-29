@@ -17,9 +17,30 @@
 }
 
 @font-face {
-  font-family:"Arnhem Fine";
+  font-family:"ArnhemFine";
   src: url("../font/ArnhemFinePro-Normal.eot");
+  font-weight:normal;
+  font-style:normal;
 }
+@font-face {
+  font-family:"ArnhemFine";
+  src: url("../font/ArnhemFinePro-Bold.eot");
+  font-weight:bold;
+  font-style:normal;
+}
+@font-face {
+  font-family:"ArnhemFine";
+  src: url("../font/ArnhemFinePro-BoldItalic.eot");
+  font-weight:bold;
+  font-style:italic;
+}
+@font-face {
+  font-family:"ArnhemFine";
+  src: url("../font/ArnhemFinePro-NormalItalic.eot");
+  font-weight:normal;
+  font-style:italic;
+}
+
 
 body {
   padding: 5vw 15vw;

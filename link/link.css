@@ -118,6 +118,7 @@ LARGE QUOTE
     display:table;
     width:100%;
     margin-bottom:5vh;
+
 }
 
 .quote_container.play {
@@ -179,18 +180,27 @@ LARGE QUOTE
 /* for the actual dynamic text quote */
 .large_quote {
     color:black;
-    font-size:17px;
-    line-height:26px;
+    font-size:44px;
+    line-height:45px;
     transition:0.25s ease;
+    font-family:"ArnhemFine" !important;
+    font-weight:bold;
+    margin-bottom:0;
+    font-style:italic;
 }
 
 .large_quote:hover {
     cursor:pointer !important;
     transition:0.25s ease;
+    text-decoration:underline;
+    text-decoration-color:var(--linkplay);
+
 }
 
 .large_quote.play {
-    border-bottom:2px solid var(--linkplay);
+    /*border-bottom:3px solid var(--linkplay);*/
+    text-decoration:underline;
+    text-decoration-color:var(--linkplay);
 }
 
 .large_quote.play:hover {
@@ -198,11 +208,15 @@ LARGE QUOTE
 }
 
 .large_quote.work{
-    border-bottom:2px solid var(--linkwork);
+    /*border-bottom:2px solid var(--linkwork);*/
+    text-decoration:underline;
+    text-decoration-color:var(--linkwork);
 }
 
 .large_quote.work:hover {
     color:var(--linkwork1);
+    text-decoration:underline;
+    text-decoration-color:var(--linkwork);
 }
 
 /* ============================
