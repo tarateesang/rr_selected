@@ -7,8 +7,8 @@
   --grey300: #E0E0E0;
 
   /* Robb Report colours */
-  --bgplay:#F9F4EA;
-  --bgwork:#DFEBF0;
+  --bgplay:#F9F4EA; /*249,244,234*/
+  --bgwork:#DFEBF0; /*223,235,240*/
   --linkplay:#FFE3A6; /*255 227 166*/
   --linkplay1:#D4A01C;
   --linkwork:#B3D9E1; /*179 217 225*/
