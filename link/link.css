@@ -215,13 +215,15 @@ SUBCATEGORY LINKS
     font-weight:500;
     font-size:13px;
     letter-spacing:1px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    transition: border 0.2s ease;
 }
 .subcategory:hover,
 .subcategory:active,
 .subcategory:focus {
-    text-decoration:underline;
     color:black;
-    transition:0.25s ease;
+    transition: border 0.3s ease;
+    border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
 
 .work_play {
@@ -230,14 +232,16 @@ SUBCATEGORY LINKS
     font-weight:500;
     font-size:13px;
     letter-spacing:1px;
+    border-bottom: 1px solid rgba(86, 162, 178, 0);
+    transition: border 0.2s ease;
 }
 
 .work_play:hover,
 .work_play:active,
 .work_play:focus {
     color:var(--linkwork1);
-    text-decoration:underline;
-    transition:0.25s ease;
+    transition:0.3s ease;
+    border-bottom: 1px solid rgba(86, 162, 178, 1);
 }
 
 
