@@ -189,6 +189,7 @@ LARGE QUOTE
     margin-bottom:0;
     font-style:italic;
     position:relative;
+
 }
 
 .large_quote:hover {
@@ -202,9 +203,16 @@ LARGE QUOTE
 
 .large_quote.play {
     /*border-bottom:3px solid var(--linkplay);*/
-    text-decoration:underline;
+/*    text-decoration:underline;
     text-decoration-color:var(--linkplay);
-    -webkit-text-decoration-color:var(--linkplay);
+    -webkit-text-decoration-color:var(--linkplay);*/
+        background:
+    linear-gradient(to top,
+      rgba(0,0,0,0) 5px,
+      rgba(255,227,166,1) 5px,
+      rgba(255,227,166,1) 8px,
+      rgba(0,0,0,0) 10px
+    );
 }
 
 .large_quote.play:hover {
@@ -213,16 +221,24 @@ LARGE QUOTE
 
 .large_quote.work{
     /*border-bottom:2px solid var(--linkwork);*/
-    text-decoration:underline;
+/*    text-decoration:underline;
     text-decoration-color:var(--linkwork);
-    -webkit-text-decoration-color:var(--linkwork);
+    -webkit-text-decoration-color:var(--linkwork);*/
+        background:
+    linear-gradient(to top,
+      rgba(0,0,0,0) 5px,
+      rgba(179,217,225,1) 5px,
+      rgba(179,217,225,1) 8px,
+      rgba(0,0,0,0) 10px
+    );
 }
 
 .large_quote.work:hover {
     color:var(--linkwork1);
-    text-decoration:underline;
+/*    text-decoration:underline;
     text-decoration-color:var(--linkwork);
-    -webkit-text-decoration-color:var(--linkwork);
+    -webkit-text-decoration-color:var(--linkwork);*/
+
 }
 
 /* ============================

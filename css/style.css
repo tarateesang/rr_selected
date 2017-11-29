@@ -9,9 +9,9 @@
   /* Robb Report colours */
   --bgplay:#F9F4EA;
   --bgwork:#DFEBF0;
-  --linkplay:#FFE3A6;
+  --linkplay:#FFE3A6; /*255 227 166*/
   --linkplay1:#D4A01C;
-  --linkwork:#B3D9E1;
+  --linkwork:#B3D9E1; /*179 217 225*/
   --linkwork1:#56A2B2; /*rgb: 86, 162, 178 */
   --linkneutral:#F3C3BE;
 }
