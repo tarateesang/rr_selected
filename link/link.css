@@ -122,8 +122,8 @@ LARGE QUOTE
 }
 
 .quote_container.play {
-    /*background:var(--bgplay);*/
-    background:transparent;
+    background:var(--bgplay);
+    /*background:transparent;*/
 }
 
 .quote_container.work {
@@ -206,8 +206,6 @@ LARGE QUOTE
     text-decoration-color:var(--linkplay);
     -webkit-text-decoration-color:var(--linkplay);
 }
-
-
 
 .large_quote.play:hover {
     color:var(--linkplay1);

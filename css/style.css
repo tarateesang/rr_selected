@@ -19,6 +19,7 @@
 @font-face {
   font-family:ArnhemFine;
   src: url("../font/ArnhemFinePro-Normal.eot");
+  src: url("../font/ArnhemFinePro-Normal.woff");
   /*src: local(ArnhemFine), url("../font/ArnhemFinePro-Normal.ttf");*/
   font-weight:normal;
   font-style:normal;
@@ -26,6 +27,7 @@
 @font-face {
   font-family:ArnhemFine;
   src: url("../font/ArnhemFinePro-Bold.eot");
+  src: url("../font/ArnhemFinePro-Bold.woff");
   /*src: local(ArnhemFine), url("../font/ArnhemFinePro-Bold.ttf");*/
   font-weight:bold;
   font-style:normal;
@@ -33,6 +35,7 @@
 @font-face {
   font-family:ArnhemFine;
   src: url("../font/ArnhemFinePro-BoldItalic.eot");
+  src: url("../font/ArnhemFinePro-BoldItalic.woff");
   /*src: local(ArnhemFine), url("../font/ArnhemFinePro-BoldItalic.ttf");*/
   font-weight:bold;
   font-style:italic;
@@ -40,6 +43,7 @@
 @font-face {
   font-family:ArnhemFine;
   src: url("../font/ArnhemFinePro-NormalItalic.eot");
+  src: url("../font/ArnhemFinePro-NormalItalic.woff");
   /*src: local("ArnhemFine"), url("../font/ArnhemFinePro-NormalItalic.ttf");*/
   font-weight:normal;
   font-style:italic;
