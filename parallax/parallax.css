@@ -29,3 +29,13 @@
 	text-align:center;
 	color:white;
 }
+
+.parallax-text {
+    font-family:"Arnhem Fine";
+    font-size:36px;
+}
+
+.parallax-caption {
+    font-weight:normal;
+    font-size:18px;
+}

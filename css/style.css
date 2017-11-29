@@ -16,6 +16,11 @@
   --linkneutral:#F3C3BE;
 }
 
+@font-face {
+  font-family:"Arnhem Fine";
+  src: url("../font/ArnhemFinePro-Normal.eot");
+}
+
 body {
   padding: 5vw 15vw;
 }
