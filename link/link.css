@@ -215,10 +215,10 @@ LARGE QUOTE
     );
     background:
    -webkit-linear-gradient(to top,
-      rgba(249,244,234,1) 4px,
-      rgba(255,227,166,1) 4px,
-      rgba(255,227,166,1) 8px,
-      rgba(249,244,234,1) 8px
+      rgba(249,244,234,1) 3px,
+      rgba(255,227,166,1) 3px,
+      rgba(255,227,166,1) 7px,
+      rgba(249,244,234,1) 7px
     );
    background:
     -moz-linear-gradient(to top,
@@ -247,10 +247,10 @@ LARGE QUOTE
     );
     background:
     -webkit-linear-gradient(to top,
-      rgba(223,235,240,1) 4px,
-      rgba(179,217,225,1) 4px,
-      rgba(179,217,225,1) 8px,
-      rgba(223,235,240,1) 8px
+      rgba(223,235,240,1) 3px,
+      rgba(179,217,225,1) 3px,
+      rgba(179,217,225,1) 7px,
+      rgba(223,235,240,1) 7px
     );
     background:
     -moz-linear-gradient(to top,
