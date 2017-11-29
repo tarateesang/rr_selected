@@ -31,11 +31,12 @@
 }
 
 .parallax-text {
-    font-family:"Arnhem Fine";
+    font-family:"ArnhemFine";
     font-size:36px;
 }
 
 .parallax-caption {
+    font-family:"ArnhemFine";
     font-weight:normal;
     font-size:18px;
 }
