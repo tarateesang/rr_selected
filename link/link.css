@@ -205,6 +205,7 @@ LARGE QUOTE
     -webkit-text-decoration-color:var(--linkplay);
 }
 
+
 .large_quote.play:hover {
     color:var(--linkplay1);
 }
