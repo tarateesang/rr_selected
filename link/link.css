@@ -213,6 +213,20 @@ LARGE QUOTE
       rgba(255,227,166,1) 9px,
       rgba(249,244,234,1) 10px
     );
+    background:
+   -webkit-linear-gradient(to top,
+      rgba(249,244,234,1) 6px,
+      rgba(255,227,166,1) 6px,
+      rgba(255,227,166,1) 9px,
+      rgba(249,244,234,1) 10px
+    );
+   background:
+    -moz-linear-gradient(to top,
+      rgba(249,244,234,1) 6px,
+      rgba(255,227,166,1) 6px,
+      rgba(255,227,166,1) 9px,
+      rgba(249,244,234,1) 10px
+    );
 }
 
 .large_quote.play:hover {
@@ -226,6 +240,20 @@ LARGE QUOTE
     -webkit-text-decoration-color:var(--linkwork);*/
         background:
     linear-gradient(to top,
+      rgba(223,235,240,1) 6px,
+      rgba(179,217,225,1) 6px,
+      rgba(179,217,225,1) 9px,
+      rgba(223,235,240,1) 10px
+    );
+    background:
+    -webkit-linear-gradient(to top,
+      rgba(223,235,240,1) 6px,
+      rgba(179,217,225,1) 6px,
+      rgba(179,217,225,1) 9px,
+      rgba(223,235,240,1) 10px
+    );
+    background:
+    -moz-linear-gradient(to top,
       rgba(223,235,240,1) 6px,
       rgba(179,217,225,1) 6px,
       rgba(179,217,225,1) 9px,
