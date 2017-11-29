@@ -194,6 +194,7 @@ LARGE QUOTE
     transition:0.25s ease;
     text-decoration:underline;
     text-decoration-color:var(--linkplay);
+    -webkit-text-decoration-color:var(--linkplay);
 
 }
 
@@ -201,6 +202,7 @@ LARGE QUOTE
     /*border-bottom:3px solid var(--linkplay);*/
     text-decoration:underline;
     text-decoration-color:var(--linkplay);
+    -webkit-text-decoration-color:var(--linkplay);
 }
 
 .large_quote.play:hover {
@@ -211,12 +213,14 @@ LARGE QUOTE
     /*border-bottom:2px solid var(--linkwork);*/
     text-decoration:underline;
     text-decoration-color:var(--linkwork);
+    -webkit-text-decoration-color:var(--linkwork);
 }
 
 .large_quote.work:hover {
     color:var(--linkwork1);
     text-decoration:underline;
     text-decoration-color:var(--linkwork);
+    -webkit-text-decoration-color:var(--linkwork);
 }
 
 /* ============================
