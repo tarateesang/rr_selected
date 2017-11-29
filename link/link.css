@@ -122,7 +122,8 @@ LARGE QUOTE
 }
 
 .quote_container.play {
-    background:var(--bgplay);
+    /*background:var(--bgplay);*/
+    background:transparent;
 }
 
 .quote_container.work {
@@ -187,14 +188,15 @@ LARGE QUOTE
     font-weight:bold;
     margin-bottom:0;
     font-style:italic;
+    position:relative;
 }
 
 .large_quote:hover {
     cursor:pointer !important;
     transition:0.25s ease;
-    text-decoration:underline;
+/*    text-decoration:underline;
     text-decoration-color:var(--linkplay);
-    -webkit-text-decoration-color:var(--linkplay);
+    -webkit-text-decoration-color:var(--linkplay);*/
 
 }
 
@@ -204,6 +206,7 @@ LARGE QUOTE
     text-decoration-color:var(--linkplay);
     -webkit-text-decoration-color:var(--linkplay);
 }
+
 
 
 .large_quote.play:hover {
