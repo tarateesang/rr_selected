@@ -1,42 +1,36 @@
-.parallax { 
+.parallax {
     /* Set a specific height */
-    height: 500px; 
-
+    height: 500px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    display:table;
-    width:100%;
+    display: table;
+    width: 100%;
 }
-
 .parallax-1 {
     /* The image used */
     background-image: url("../images/dance.jpg");
 }
-
 .parallax-2 {
     /* The image used */
     background-image: url("../images/pur_sang.jpg");
 }
-
 .parallax-inner-container {
-	display:table-cell;
-	vertical-align: middle;
-	width:inherit;
-	height:inherit;
-	text-align:center;
-	color:white;
+    display: table-cell;
+    vertical-align: middle;
+    width: inherit;
+    height: inherit;
+    text-align: center;
+    color: white;
 }
-
 .parallax-text {
-    font-family:"ArnhemFine";
-    font-size:36px;
+    font-family: "ArnhemFine";
+    font-size: 36px;
 }
-
 .parallax-caption {
-    font-family:"ArnhemFine";
-    font-weight:normal;
-    font-size:18px;
+    font-family: "ArnhemFine";
+    font-weight: normal;
+    font-size: 18px;
 }

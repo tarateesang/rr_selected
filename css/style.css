@@ -1,175 +1,137 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow+Semi+Condensed:400,500,700');
-
 :root {
-  --link1: #FF6D00;
-  --link2: #BF360C;
-  --grey500: #9E9E9E;
-  --grey300: #E0E0E0;
-
-  /* Robb Report colours */
-  --bgplay:#F9F4EA; /*249,244,234*/
-  --bgwork:#DFEBF0; /*223,235,240*/
-  --linkplay:#FFE3A6; /*255 227 166*/
-  --linkplay1:#D4A01C;
-  --linkwork:#B3D9E1; /*179 217 225*/
-  --linkwork1:#56A2B2; /*rgb: 86, 162, 178 */
-  --linkneutral:#F3C3BE;
-}
-
-@font-face {
-  font-family:ArnhemFine;
-  src: url("../font/ArnhemFinePro-Normal.eot");
-  src: url("../font/ArnhemFinePro-Normal.woff");
-  /*src: local(ArnhemFine), url("../font/ArnhemFinePro-Normal.ttf");*/
-  font-weight:normal;
-  font-style:normal;
+    --link1: #FF6D00;
+    --link2: #BF360C;
+    --grey500: #9E9E9E;
+    --grey300: #E0E0E0;
+    /* Robb Report colours */
+    --bgplay: #F9F4EA;
+    /*249,244,234*/
+    --bgwork: #DFEBF0;
+    /*223,235,240*/
+    --linkplay: #FFE3A6;
+    /*255 227 166*/
+    --linkplay1: #D4A01C;
+    --linkwork: #B3D9E1;
+    /*179 217 225*/
+    --linkwork1: #56A2B2;
+    /*rgb: 86, 162, 178 */
+    --linkneutral: #F3C3BE;
 }
 @font-face {
-  font-family:ArnhemFine;
-  src: url("../font/ArnhemFinePro-Bold.eot");
-  src: url("../font/ArnhemFinePro-Bold.woff");
-  /*src: local(ArnhemFine), url("../font/ArnhemFinePro-Bold.ttf");*/
-  font-weight:bold;
-  font-style:normal;
+    font-family: ArnhemFine;
+    src: url("../font/ArnhemFinePro-Normal.eot");
+    src: url("../font/ArnhemFinePro-Normal.woff");
+    font-weight: normal;
+    font-style: normal;
 }
 @font-face {
-  font-family:ArnhemFine;
-  src: url("../font/ArnhemFinePro-BoldItalic.eot");
-  src: url("../font/ArnhemFinePro-BoldItalic.woff");
-  /*src: local(ArnhemFine), url("../font/ArnhemFinePro-BoldItalic.ttf");*/
-  font-weight:bold;
-  font-style:italic;
+    font-family: ArnhemFine;
+    src: url("../font/ArnhemFinePro-Bold.eot");
+    src: url("../font/ArnhemFinePro-Bold.woff");
+    font-weight: bold;
+    font-style: normal;
 }
 @font-face {
-  font-family:ArnhemFine;
-  src: url("../font/ArnhemFinePro-NormalItalic.eot");
-  src: url("../font/ArnhemFinePro-NormalItalic.woff");
-  /*src: local("ArnhemFine"), url("../font/ArnhemFinePro-NormalItalic.ttf");*/
-  font-weight:normal;
-  font-style:italic;
+    font-family: ArnhemFine;
+    src: url("../font/ArnhemFinePro-BoldItalic.eot");
+    src: url("../font/ArnhemFinePro-BoldItalic.woff");
+    font-weight: bold;
+    font-style: italic;
 }
-
-
+@font-face {
+    font-family: ArnhemFine;
+    src: url("../font/ArnhemFinePro-NormalItalic.eot");
+    src: url("../font/ArnhemFinePro-NormalItalic.woff");
+    font-weight: normal;
+    font-style: italic;
+}
 body {
-  padding: 5vw 15vw;
+    padding: 5vw 15vw;
 }
-
 .img-responsive {
-  width: inherit;
-  height: auto;
+    width: inherit;
+    height: auto;
 }
-
 .img-container-img {
-  width: 100%;
-  z-index: 0;
+    width: 100%;
+    z-index: 0;
 }
-
 .text-container {
-  height: inherit;
-  margin-top: -60px;
-  margin-left: 60px;
-  z-index: 1;
+    height: inherit;
+    margin-top: -60px;
+    margin-left: 60px;
+    z-index: 1;
 }
-
 .siema {
-  width: 600px;
+    width: 600px;
 }
-
 /* =====================================================
 TYPOGRAPHIC STYLING
 ======================================================*/
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-li,
-a,
-button {
-  font-family: 'Barlow', sans-serif;
+h1, h2, h3, h4, h5, h6, li, a, button {
+    font-family: 'Barlow', sans-serif;
 }
-
 a:hover {
-  cursor:pointer;
+    cursor: pointer;
 }
-
 h3 {
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
-
 .back-home {
-  margin-bottom: 5vw;
-  font-weight: 400;
-  font-size: 1em;
+    margin-bottom: 5vw;
+    font-weight: 400;
+    font-size: 1em;
 }
-
 .main-title {
-  font-weight: 400;
-  font-size: 2.5em;
+    font-weight: 400;
+    font-size: 2.5em;
 }
-
 .title {
-  font-weight: 400;
-  font-size: 2em;
+    font-weight: 400;
+    font-size: 2em;
 }
-
 .descriptor {
-  font-family: "Barlow";
-  font-weight: 400;
-  color: var(--grey500);
-  font-size: 1.25em;
-  margin-top: 10vh;
+    font-family: "Barlow";
+    font-weight: 400;
+    color: var(--grey500);
+    font-size: 1.25em;
+    margin-top: 10vh;
 }
-
-p,
-.description {
-  font-family: "Barlow";
-  /*margin-top:1vh;*/
-
-margin-bottom: 3vh;
-font-size:17px;
-line-height:26px;
+p, .description {
+    font-family: "Barlow";
+    /*margin-top:1vh;*/
+    margin-bottom: 3vh;
+    font-size: 17px;
+    line-height: 26px;
 }
-
 a {
-  color: var(--link1);
-  text-decoration: none;
+    color: var(--link1);
+    text-decoration: none;
 }
-
 a:hover, a:focus {
-  color: var(--link2);
+    color: var(--link2);
 }
-
 ul {
-  margin-top: 3vw;
+    margin-top: 3vw;
 }
-
 li {
-  margin-bottom: 1vw;
+    margin-bottom: 1vw;
 }
-
 button {
-  font-family: 'Barlow' !important;
+    font-family: 'Barlow' !important;
 }
-
-
-
 /* =====================================================
 LINK HOVERS
 ======================================================*/
 
 .link_hover_body {
-  padding: 3vh;
-  text-align: center;
+    padding: 3vh;
+    text-align: center;
 }
-
-
-
-
 /* =====================================================
 SLIDE IN UP SCROLL
 ======================================================*/
@@ -179,16 +141,12 @@ SLIDE IN UP SCROLL
     transition: 0.5s ease-out;
     width: 800px;
 }
-
 .b-lazy.slide-in {
-  /* you can change how far the image should travel here; currently set to 25% height of image*/
-  transform: translate3d(0, 25%, 0);
-  /*visibility: visible;*/
-  opacity:0;
+    /* you can change how far the image should travel here; currently set to 25% height of image*/
+    transform: translate3d(0, 25%, 0);
+    opacity: 0;
 }
-
 .b-loaded.slide-in {
-  transform: translate3d(0, 0, 0);
-  opacity:1;
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
 }
-

@@ -1,10 +1,9 @@
 /* note: linkplay: #FFE3A6 */
 
-
 nav a {
-    font-family:'Barlow';
-    font-weight:500 !important;
-    letter-spacing:1px !important;
+    font-family: 'Barlow';
+    font-weight: 500 !important;
+    letter-spacing: 1px !important;
     position: relative;
     display: inline-block;
     margin: 15px 25px;
@@ -51,266 +50,182 @@ nav a:hover, nav a:focus {
 BODY LINK
 ============================== */
 
-
 .body_link {
     color: black;
     font-style: italic;
     border-bottom: 3px var(--linkplay) solid;
 }
-.body_link:hover,
-.body_link:focus,
-.body_link:active,
-.body_link::after {
+.body_link:hover, .body_link:focus, .body_link:active, .body_link::after {
     color: black;
     cursor: pointer;
     background-color: var(--linkplay);
     transition: 0.25s ease;
 }
-
-
 .body_link1 {
     color: black;
     font-style: italic;
     border-bottom: 3px var(--linkwork) solid;
 }
-.body_link1:hover,
-.body_link1:focus,
-.body_link1:active,
-.body_link1::after {
+.body_link1:hover, .body_link1:focus, .body_link1:active, .body_link1::after {
     color: black;
     cursor: pointer;
     background-color: var(--linkwork);
     transition: 0.25s ease;
 }
-
-
-.body_link1:hover::after,
-.body_link1:focus::after,
-.body_link1:active::after{
+.body_link1:hover::after, .body_link1:focus::after, .body_link1:active::after {
     color: black;
     cursor: pointer;
     background-color: var(--linkwork);
     /*transition: 0.25s ease;*/
 }
-
-
-.body_link2{
+.body_link2 {
     color: black;
     font-style: italic;
     border-bottom: 3px var(--linkneutral) solid;
 }
-.body_link2:hover,
-.body_link2:focus,
-.body_link2:active,
-.body_link2::after {
+.body_link2:hover, .body_link2:focus, .body_link2:active, .body_link2::after {
     color: black;
     cursor: pointer;
     background-color: var(--linkneutral);
     transition: 0.25s ease;
 }
-
 /* ============================
 LARGE QUOTE
 =============================== */
 
 .quote_container {
-    min-height:300px;
-    display:table;
-    width:100%;
-    margin-bottom:5vh;
-
+    min-height: 300px;
+    display: table;
+    width: 100%;
+    margin-bottom: 5vh;
 }
-
 .quote_container.play {
-    background:var(--bgplay);
+    background: var(--bgplay);
     /*background:transparent;*/
 }
-
 .quote_container.work {
-    background:var(--bgwork);
+    background: var(--bgwork);
 }
-
 .quote_inner {
-    display:table-cell;
-    vertical-align:middle;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
-    padding:40px;
+    display: table-cell;
+    vertical-align: middle;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: 40px;
 }
-
 /* hard-coded image styling for demo */
+
 .quote_img_container {
-    margin-bottom:50px;
+    margin-bottom: 50px;
 }
-
 .quote_img {
-    background:url('quote1a.png');
-    background-repeat:no-repeat;
-    height:415px;
-    width:750px;
-    transition:0.25s ease;
+    background: url('quote1a.png');
+    background-repeat: no-repeat;
+    height: 415px;
+    width: 750px;
+    transition: 0.25s ease;
 }
-
-.quote_img:hover,
-.quote_img:focus,
-.quote_img:active {
-    background:url('quote2a.png');
-    background-repeat:no-repeat;
-    height:415px;
-    width:750px;
-    transition:0.25s ease;
+.quote_img:hover, .quote_img:focus, .quote_img:active {
+    background: url('quote2a.png');
+    background-repeat: no-repeat;
+    height: 415px;
+    width: 750px;
+    transition: 0.25s ease;
 }
-
 .quote_img1 {
-    background:url('quote1b.png');
-    background-repeat:no-repeat;
-    height:415px;
-    width:750px;
-    transition:0.25s ease;
+    background: url('quote1b.png');
+    background-repeat: no-repeat;
+    height: 415px;
+    width: 750px;
+    transition: 0.25s ease;
 }
-
 .quote_img1:hover {
-    background:url('quote2b.png');
-    background-repeat:no-repeat;
-    height:415px;
-    width:750px;
-    transition:0.25s ease;
+    background: url('quote2b.png');
+    background-repeat: no-repeat;
+    height: 415px;
+    width: 750px;
+    transition: 0.25s ease;
 }
-
 /* for the actual dynamic text quote */
+
 .large_quote {
-    color:black;
-    font-size:44px;
-    line-height:45px;
-    transition:0.25s ease;
-    font-family:"ArnhemFine" !important;
-    font-weight:bold;
-    margin-bottom:0;
-    font-style:italic;
-    position:relative;
-
+    color: black;
+    font-size: 44px;
+    line-height: 45px;
+    transition: 0.25s ease;
+    font-family: "ArnhemFine" !important;
+    font-weight: bold;
+    margin-bottom: 0;
+    font-style: italic;
+    position: relative;
 }
-
 .large_quote:hover {
-    cursor:pointer !important;
-    transition:0.25s ease;
-/*    text-decoration:underline;
+    cursor: pointer !important;
+    transition: 0.25s ease;
+    /*text-decoration:underline;
     text-decoration-color:var(--linkplay);
     -webkit-text-decoration-color:var(--linkplay);*/
-
 }
-
 .large_quote.play {
     /*border-bottom:3px solid var(--linkplay);*/
-/*    text-decoration:underline;
+    /*text-decoration:underline;
     text-decoration-color:var(--linkplay);
     -webkit-text-decoration-color:var(--linkplay);*/
-        background:
-    linear-gradient(to top,
-      rgba(249,244,234,1) 4px,
-      rgba(255,227,166,1) 4px,
-      rgba(255,227,166,1) 8px,
-      rgba(249,244,234,1) 8px
-    );
-    background:
-   -webkit-linear-gradient(to top,
-      rgba(249,244,234,1) 3px,
-      rgba(255,227,166,1) 3px,
-      rgba(255,227,166,1) 7px,
-      rgba(249,244,234,1) 7px
-    );
-   background:
-    -moz-linear-gradient(to top,
-      rgba(249,244,234,1) 4px,
-      rgba(255,227,166,1) 4px,
-      rgba(255,227,166,1) 8px,
-      rgba(249,244,234,1) 8px
-    );
+    background: linear-gradient(to top, rgba(249, 244, 234, 1) 4px, rgba(255, 227, 166, 1) 4px, rgba(255, 227, 166, 1) 8px, rgba(249, 244, 234, 1) 8px);
+    background: -webkit-linear-gradient(to top, rgba(249, 244, 234, 1) 3px, rgba(255, 227, 166, 1) 3px, rgba(255, 227, 166, 1) 7px, rgba(249, 244, 234, 1) 7px);
+    background: -moz-linear-gradient(to top, rgba(249, 244, 234, 1) 4px, rgba(255, 227, 166, 1) 4px, rgba(255, 227, 166, 1) 8px, rgba(249, 244, 234, 1) 8px);
 }
-
 .large_quote.play:hover {
-    color:var(--linkplay1);
+    color: var(--linkplay1);
 }
-
-.large_quote.work{
+.large_quote.work {
     /*border-bottom:2px solid var(--linkwork);*/
-/*    text-decoration:underline;
+    /*text-decoration:underline;
     text-decoration-color:var(--linkwork);
     -webkit-text-decoration-color:var(--linkwork);*/
-        background:
-    linear-gradient(to top,
-      rgba(223,235,240,1) 4px,
-      rgba(179,217,225,1) 4px,
-      rgba(179,217,225,1) 8px,
-      rgba(223,235,240,1) 8px
-    );
-    background:
-    -webkit-linear-gradient(to top,
-      rgba(223,235,240,1) 3px,
-      rgba(179,217,225,1) 3px,
-      rgba(179,217,225,1) 7px,
-      rgba(223,235,240,1) 7px
-    );
-    background:
-    -moz-linear-gradient(to top,
-      rgba(223,235,240,1) 4px,
-      rgba(179,217,225,1) 4px,
-      rgba(179,217,225,1) 8px,
-      rgba(223,235,240,1) 8px
-    );
+    background: linear-gradient(to top, rgba(223, 235, 240, 1) 4px, rgba(179, 217, 225, 1) 4px, rgba(179, 217, 225, 1) 8px, rgba(223, 235, 240, 1) 8px);
+    background: -webkit-linear-gradient(to top, rgba(223, 235, 240, 1) 3px, rgba(179, 217, 225, 1) 3px, rgba(179, 217, 225, 1) 7px, rgba(223, 235, 240, 1) 7px);
+    background: -moz-linear-gradient(to top, rgba(223, 235, 240, 1) 4px, rgba(179, 217, 225, 1) 4px, rgba(179, 217, 225, 1) 8px, rgba(223, 235, 240, 1) 8px);
 }
-
 .large_quote.work:hover {
-    color:var(--linkwork1);
-/*    text-decoration:underline;
+    color: var(--linkwork1);
+    /*text-decoration:underline;
     text-decoration-color:var(--linkwork);
     -webkit-text-decoration-color:var(--linkwork);*/
-
 }
-
 /* ============================
 SUBCATEGORY LINKS
 =============================== */
 
 .subcategory {
-    color:black;
-    padding-right:3px;
-    font-weight:500;
-    font-size:13px;
-    letter-spacing:1px;
+    color: black;
+    padding-right: 3px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
     border-bottom: 1px solid rgba(0, 0, 0, 0);
     transition: border 0.2s ease;
 }
-.subcategory:hover,
-.subcategory:active,
-.subcategory:focus {
-    color:black;
+.subcategory:hover, .subcategory:active, .subcategory:focus {
+    color: black;
     transition: border 0.3s ease;
     border-bottom: 1px solid rgba(0, 0, 0, 1);
 }
-
 .work_play {
-    color:var(--linkwork1);
-    padding-left:3px;
-    font-weight:500;
-    font-size:13px;
-    letter-spacing:1px;
+    color: var(--linkwork1);
+    padding-left: 3px;
+    font-weight: 500;
+    font-size: 13px;
+    letter-spacing: 1px;
     border-bottom: 1px solid rgba(86, 162, 178, 0);
     transition: border 0.2s ease;
 }
-
-.work_play:hover,
-.work_play:active,
-.work_play:focus {
-    color:var(--linkwork1);
-    transition:0.3s ease;
+.work_play:hover, .work_play:active, .work_play:focus {
+    color: var(--linkwork1);
+    transition: 0.3s ease;
     border-bottom: 1px solid rgba(86, 162, 178, 1);
 }
-
-
-
-
 /* ============================
 SOCIAL MEDIA ICON HOVER
 =============================== */
@@ -327,13 +242,13 @@ i:hover {
 }
 .fa-twitter:hover {
     color: #1da1f2;
-    transition:0.25s ease;
+    transition: 0.25s ease;
 }
 .fa-facebook:hover {
     color: #3b5998;
-    transition:0.25s ease;
+    transition: 0.25s ease;
 }
 .fa-pinterest:hover {
     color: #C92228;
-    transition:0.25s ease;
+    transition: 0.25s ease;
 }
